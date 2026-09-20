@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+  --color-emerald-50: #f0f7f9;
+  --color-emerald-100: #e1f0f4;
+  --color-emerald-200: #c2e2ec;
+  --color-emerald-300: #a3d1e0;
+  --color-emerald-400: #82bdcf;
+  --color-emerald-500: #a3d1e0;
+  --color-emerald-600: #4a8ca0;
+  --color-emerald-700: #3b7182;
+  --color-emerald-800: #335d6c;
+  --color-emerald-900: #2c4e5a;
+  --color-emerald-950: #1b313a;
+}
+
+@layer base {
+  *, ::before, ::after {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  }
+}
+
+body, html, #root {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+}
+
+/* Shared department workspace: compact, squared clinical operations layout. */
+.reference-shell {
+  background: #f4f6f8;
+}
+
+.reference-main {
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 16px 18px !important;
+}
+
+.reference-shell .department-page-nav {
+  display: none !important;
+}
+
+.reference-shell main > div,
+.reference-shell main section,
+.reference-shell main article,
+.reference-shell main [class*="rounded-3xl"],
+.reference-shell main [class*="rounded-2xl"] {
+  border-radius: 0 !important;
+}
+
+.reference-shell main [class*="shadow"] {
+  box-shadow: 0 1px 2px rgba(15, 23, 42, .04) !important;
+}
+
+.reference-shell main h1,
+.reference-shell main h2,
+.reference-shell main h3 {
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 768px) {
+  .reference-main {
+    padding: 12px !important;
+  }
+}
+
+.department-page-nav {
+  display: none !important;
+}
+

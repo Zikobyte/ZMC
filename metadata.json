@@ -1,0 +1,6 @@
+{
+  "name": "ZMC Hospital Management System",
+  "description": "Enterprise-grade Hospital Management System for Zikora Medical Centre, featuring authentication, role-based access control, OPD patient registration, clinical consultations, billing, and real-time alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
